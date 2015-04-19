@@ -1,0 +1,29 @@
+import lime.project.*;
+import sys.FileSystem;
+
+class Project extends HXProject {
+	public function new() {
+		super();
+		
+		meta.title = "Unconventional";
+		meta.packageName = "com.player03.ludum32";
+		meta.version = "1.0.0";
+		meta.company = "player_03";
+		
+		app.main = "com.player03.ludum32.Main";
+		app.path = "bin";
+		app.file = "Unconventional";
+		
+		sources.push("src");
+		
+		haxelibs.push(new Haxelib("openfl"));
+		haxelibs.push(new Haxelib("ash"));
+		haxelibs.push(new Haxelib("ash-display"));
+		haxelibs.push(new Haxelib("singleton"));
+		haxelibs.push(new Haxelib("haxeutils"));
+		
+		includeAssets("assets/img", "img");
+		includeAssets("assets/text", "text");
+		icons.push(new Icon("assets/openfl.svg"));
+	}
+}

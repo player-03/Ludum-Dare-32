@@ -1,0 +1,245 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Copper0 {
+    width: 8px;
+    height: 18px;
+    background-position: -1px -1px;
+}
+
+.sprite-Copper1 {
+    width: 14px;
+    height: 18px;
+    background-position: -11px -1px;
+}
+
+.sprite-Copper2 {
+    width: 18px;
+    height: 18px;
+    background-position: -27px -1px;
+}
+
+.sprite-Copper3 {
+    width: 18px;
+    height: 18px;
+    background-position: -47px -1px;
+}
+
+.sprite-Copper4 {
+    width: 18px;
+    height: 18px;
+    background-position: -67px -1px;
+}
+
+.sprite-Copper5 {
+    width: 16px;
+    height: 18px;
+    background-position: -87px -1px;
+}
+
+.sprite-Copper6 {
+    width: 12px;
+    height: 18px;
+    background-position: -105px -1px;
+}
+
+.sprite-Copper7 {
+    width: 6px;
+    height: 18px;
+    background-position: -119px -1px;
+}
+
+.sprite-Gold0 {
+    width: 8px;
+    height: 18px;
+    background-position: -127px -1px;
+}
+
+.sprite-Gold1 {
+    width: 14px;
+    height: 18px;
+    background-position: -137px -1px;
+}
+
+.sprite-Gold2 {
+    width: 18px;
+    height: 18px;
+    background-position: -153px -1px;
+}
+
+.sprite-Gold3 {
+    width: 18px;
+    height: 18px;
+    background-position: -1px -21px;
+}
+
+.sprite-Gold4 {
+    width: 18px;
+    height: 18px;
+    background-position: -21px -21px;
+}
+
+.sprite-Gold5 {
+    width: 16px;
+    height: 18px;
+    background-position: -41px -21px;
+}
+
+.sprite-Gold6 {
+    width: 12px;
+    height: 18px;
+    background-position: -59px -21px;
+}
+
+.sprite-Gold7 {
+    width: 6px;
+    height: 18px;
+    background-position: -73px -21px;
+}
+
+.sprite-PirateD0 {
+    width: 34px;
+    height: 44px;
+    background-position: -81px -21px;
+}
+
+.sprite-PirateD1 {
+    width: 34px;
+    height: 46px;
+    background-position: -117px -21px;
+}
+
+.sprite-PirateD2 {
+    width: 34px;
+    height: 44px;
+    background-position: -1px -69px;
+}
+
+.sprite-PirateD3 {
+    width: 34px;
+    height: 46px;
+    background-position: -37px -69px;
+}
+
+.sprite-PirateL0 {
+    width: 28px;
+    height: 44px;
+    background-position: -73px -69px;
+}
+
+.sprite-PirateL1 {
+    width: 28px;
+    height: 46px;
+    background-position: -103px -69px;
+}
+
+.sprite-PirateL2 {
+    width: 28px;
+    height: 44px;
+    background-position: -133px -69px;
+}
+
+.sprite-PirateL3 {
+    width: 28px;
+    height: 46px;
+    background-position: -1px -115px;
+}
+
+.sprite-PirateR0 {
+    width: 28px;
+    height: 44px;
+    background-position: -73px -115px;
+}
+
+.sprite-PirateR1 {
+    width: 28px;
+    height: 46px;
+    background-position: -133px -115px;
+}
+
+.sprite-PirateR2 {
+    width: 28px;
+    height: 44px;
+    background-position: -173px -1px;
+}
+
+.sprite-PirateR3 {
+    width: 28px;
+    height: 46px;
+    background-position: -163px -47px;
+}
+
+.sprite-PirateU0 {
+    width: 30px;
+    height: 44px;
+    background-position: -163px -95px;
+}
+
+.sprite-PirateU1 {
+    width: 30px;
+    height: 46px;
+    background-position: -31px -141px;
+}
+
+.sprite-PirateU2 {
+    width: 30px;
+    height: 44px;
+    background-position: -163px -141px;
+}
+
+.sprite-PirateU3 {
+    width: 30px;
+    height: 46px;
+    background-position: -203px -1px;
+}
+
+.sprite-Silver0 {
+    width: 8px;
+    height: 18px;
+    background-position: -1px -49px;
+}
+
+.sprite-Silver1 {
+    width: 14px;
+    height: 18px;
+    background-position: -11px -49px;
+}
+
+.sprite-Silver2 {
+    width: 18px;
+    height: 18px;
+    background-position: -27px -49px;
+}
+
+.sprite-Silver3 {
+    width: 18px;
+    height: 18px;
+    background-position: -47px -49px;
+}
+
+.sprite-Silver4 {
+    width: 18px;
+    height: 18px;
+    background-position: -193px -49px;
+}
+
+.sprite-Silver5 {
+    width: 16px;
+    height: 18px;
+    background-position: -213px -49px;
+}
+
+.sprite-Silver6 {
+    width: 12px;
+    height: 18px;
+    background-position: -67px -49px;
+}
+
+.sprite-Silver7 {
+    width: 6px;
+    height: 18px;
+    background-position: -153px -49px;
+}
