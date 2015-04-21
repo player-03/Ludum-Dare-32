@@ -22,4 +22,8 @@ class Animation {
 			frame -= tiles.length;
 		}
 	}
+	
+	public inline function clone():Animation {
+		return new Animation(tiles);
+	}
 }

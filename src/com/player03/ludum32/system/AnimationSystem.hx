@@ -9,7 +9,7 @@ import com.player03.ludum32.component.display.Animation;
  * @author Joseph Cloutier
  */
 class AnimationSystem extends ListIteratingSystem<AnimationNode> {
-	public static inline var FPS:Float = 6;
+	public static inline var FPS:Float = 8;
 	
 	public function new() {
 		super(AnimationNode, updateNode);

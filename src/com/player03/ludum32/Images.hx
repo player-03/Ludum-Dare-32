@@ -30,11 +30,11 @@ class Images implements Singleton {
 	public var tilesheet:Tilesheet;
 	public var animations:Map<String, Animation>;
 	
+	public var invisibleTile(default, null):Int;
+	
 	private function new() {
 		tilesheet = new Tilesheet(Assets.getBitmapData("img/spritesheet.png"));
 		animations = new Map<String, Animation>();
-		
-		var tileID:Int = 0;
 		
 		var stylesheet:String = Assets.getText("text/stylesheet.css");
 		while(TILE_MATCHER.match(stylesheet)) {
@@ -61,7 +61,8 @@ class Images implements Singleton {
 				tileData = PARAM_MATCHER.matchedRight();
 			}
 			
-			tilesheet.addTileRect(rect, new Point(rect.width / 2, rect.height));
+			var tileID:Int = tilesheet.addTileRect(rect,
+				new Point(rect.width / 2, rect.height / 2));
 			
 			if(ANIMATION_NAME_MATCHER.match(tileName)) {
 				var animation:Animation = animations[ANIMATION_NAME_MATCHER.matched(1)];
@@ -75,14 +76,25 @@ class Images implements Singleton {
 				animation.tiles.push(tileID);
 			}
 			
-			tileID++;
 			stylesheet = TILE_MATCHER.matchedRight();
 		}
+		
+		invisibleTile = tilesheet.addTileRect(new Rectangle());
 	}
 	
-	public function getDirectionalAnimations(name:String):DirectionalAnimations {
+	public static function getDirectionalAnimations(name:String):DirectionalAnimations {
 		return new DirectionalAnimations(
-				animations[name + "L"], animations[name + "R"],
-				animations[name + "U"], animations[name + "D"]);
+				instance.animations[name + "L"].clone(),
+				instance.animations[name + "R"].clone(),
+				instance.animations[name + "U"].clone(),
+				instance.animations[name + "D"].clone());
+	}
+	
+	public static inline function getAnimation(name:String):Animation {
+		return instance.animations[name].clone();
+	}
+	
+	public static inline function getTileRect(tileID:Int):Rectangle {
+		return instance.tilesheet.getTileRect(tileID);
 	}
 }

@@ -19,6 +19,16 @@ class DirectionalAnimations {
 		this.up = up;
 		this.down = down;
 		
-		mostRecentAnimation = down;
+		mostRecentAnimation =
+			switch(Std.int(Math.random() * 4)) {
+				case 0:
+					left;
+				case 1:
+					right;
+				case 2:
+					up;
+				default:
+					down;
+			};
 	}
 }

@@ -4,242 +4,368 @@
     display: block;
 }
 
+.sprite-ArcherD0 {
+    width: 32px;
+    height: 40px;
+    background-position: -1px -1px;
+}
+
+.sprite-ArcherL0 {
+    width: 24px;
+    height: 40px;
+    background-position: -35px -1px;
+}
+
+.sprite-ArcherR0 {
+    width: 24px;
+    height: 40px;
+    background-position: -61px -1px;
+}
+
+.sprite-ArcherU0 {
+    width: 32px;
+    height: 40px;
+    background-position: -87px -1px;
+}
+
+.sprite-BossD0 {
+    width: 28px;
+    height: 40px;
+    background-position: -121px -1px;
+}
+
+.sprite-BossL0 {
+    width: 24px;
+    height: 40px;
+    background-position: -151px -1px;
+}
+
+.sprite-BossR0 {
+    width: 24px;
+    height: 40px;
+    background-position: -177px -1px;
+}
+
+.sprite-BossU0 {
+    width: 28px;
+    height: 40px;
+    background-position: -203px -1px;
+}
+
 .sprite-Copper0 {
     width: 8px;
     height: 18px;
-    background-position: -1px -1px;
+    background-position: -1px -43px;
 }
 
 .sprite-Copper1 {
     width: 14px;
     height: 18px;
-    background-position: -11px -1px;
+    background-position: -11px -43px;
 }
 
 .sprite-Copper2 {
     width: 18px;
     height: 18px;
-    background-position: -27px -1px;
+    background-position: -27px -43px;
 }
 
 .sprite-Copper3 {
     width: 18px;
     height: 18px;
-    background-position: -47px -1px;
+    background-position: -47px -43px;
 }
 
 .sprite-Copper4 {
     width: 18px;
     height: 18px;
-    background-position: -67px -1px;
+    background-position: -67px -43px;
 }
 
 .sprite-Copper5 {
     width: 16px;
     height: 18px;
-    background-position: -87px -1px;
+    background-position: -87px -43px;
 }
 
 .sprite-Copper6 {
     width: 12px;
     height: 18px;
-    background-position: -105px -1px;
+    background-position: -105px -43px;
 }
 
 .sprite-Copper7 {
     width: 6px;
     height: 18px;
-    background-position: -119px -1px;
+    background-position: -119px -43px;
 }
 
 .sprite-Gold0 {
     width: 8px;
     height: 18px;
-    background-position: -127px -1px;
+    background-position: -127px -43px;
 }
 
 .sprite-Gold1 {
     width: 14px;
     height: 18px;
-    background-position: -137px -1px;
+    background-position: -137px -43px;
 }
 
 .sprite-Gold2 {
     width: 18px;
     height: 18px;
-    background-position: -153px -1px;
+    background-position: -153px -43px;
 }
 
 .sprite-Gold3 {
     width: 18px;
     height: 18px;
-    background-position: -1px -21px;
+    background-position: -173px -43px;
 }
 
 .sprite-Gold4 {
     width: 18px;
     height: 18px;
-    background-position: -21px -21px;
+    background-position: -193px -43px;
 }
 
 .sprite-Gold5 {
     width: 16px;
     height: 18px;
-    background-position: -41px -21px;
+    background-position: -213px -43px;
 }
 
 .sprite-Gold6 {
     width: 12px;
     height: 18px;
-    background-position: -59px -21px;
+    background-position: -1px -63px;
 }
 
 .sprite-Gold7 {
     width: 6px;
     height: 18px;
-    background-position: -73px -21px;
+    background-position: -231px -43px;
+}
+
+.sprite-Magnet0 {
+    width: 32px;
+    height: 36px;
+    background-position: -15px -63px;
 }
 
 .sprite-PirateD0 {
     width: 34px;
     height: 44px;
-    background-position: -81px -21px;
+    background-position: -49px -63px;
 }
 
 .sprite-PirateD1 {
     width: 34px;
     height: 46px;
-    background-position: -117px -21px;
+    background-position: -85px -63px;
 }
 
 .sprite-PirateD2 {
     width: 34px;
     height: 44px;
-    background-position: -1px -69px;
+    background-position: -121px -63px;
 }
 
 .sprite-PirateD3 {
     width: 34px;
     height: 46px;
-    background-position: -37px -69px;
+    background-position: -157px -63px;
 }
 
 .sprite-PirateL0 {
     width: 28px;
     height: 44px;
-    background-position: -73px -69px;
+    background-position: -193px -63px;
 }
 
 .sprite-PirateL1 {
     width: 28px;
     height: 46px;
-    background-position: -103px -69px;
+    background-position: -1px -109px;
 }
 
 .sprite-PirateL2 {
     width: 28px;
     height: 44px;
-    background-position: -133px -69px;
+    background-position: -31px -109px;
 }
 
 .sprite-PirateL3 {
     width: 28px;
     height: 46px;
-    background-position: -1px -115px;
+    background-position: -121px -109px;
 }
 
 .sprite-PirateR0 {
     width: 28px;
     height: 44px;
-    background-position: -73px -115px;
+    background-position: -193px -109px;
 }
 
 .sprite-PirateR1 {
     width: 28px;
     height: 46px;
-    background-position: -133px -115px;
+    background-position: -31px -155px;
 }
 
 .sprite-PirateR2 {
     width: 28px;
     height: 44px;
-    background-position: -173px -1px;
+    background-position: -61px -155px;
 }
 
 .sprite-PirateR3 {
     width: 28px;
     height: 46px;
-    background-position: -163px -47px;
+    background-position: -91px -155px;
 }
 
 .sprite-PirateU0 {
     width: 30px;
     height: 44px;
-    background-position: -163px -95px;
+    background-position: -151px -155px;
 }
 
 .sprite-PirateU1 {
     width: 30px;
     height: 46px;
-    background-position: -31px -141px;
+    background-position: -183px -155px;
 }
 
 .sprite-PirateU2 {
     width: 30px;
     height: 44px;
-    background-position: -163px -141px;
+    background-position: -239px -1px;
 }
 
 .sprite-PirateU3 {
     width: 30px;
     height: 46px;
-    background-position: -203px -1px;
+    background-position: -239px -47px;
+}
+
+.sprite-PriestD0 {
+    width: 28px;
+    height: 40px;
+    background-position: -223px -95px;
+}
+
+.sprite-PriestL0 {
+    width: 24px;
+    height: 40px;
+    background-position: -223px -137px;
+}
+
+.sprite-PriestR0 {
+    width: 24px;
+    height: 40px;
+    background-position: -1px -179px;
+}
+
+.sprite-PriestU0 {
+    width: 28px;
+    height: 40px;
+    background-position: -121px -179px;
+}
+
+.sprite-PrincessD0 {
+    width: 28px;
+    height: 40px;
+    background-position: -215px -179px;
+}
+
+.sprite-PrincessL0 {
+    width: 24px;
+    height: 40px;
+    background-position: -245px -179px;
+}
+
+.sprite-PrincessR0 {
+    width: 24px;
+    height: 40px;
+    background-position: -1px -221px;
+}
+
+.sprite-PrincessU0 {
+    width: 28px;
+    height: 40px;
+    background-position: -27px -221px;
 }
 
 .sprite-Silver0 {
     width: 8px;
     height: 18px;
-    background-position: -1px -49px;
+    background-position: -253px -95px;
 }
 
 .sprite-Silver1 {
     width: 14px;
     height: 18px;
-    background-position: -11px -49px;
+    background-position: -61px -115px;
 }
 
 .sprite-Silver2 {
     width: 18px;
     height: 18px;
-    background-position: -27px -49px;
+    background-position: -249px -137px;
 }
 
 .sprite-Silver3 {
     width: 18px;
     height: 18px;
-    background-position: -47px -49px;
+    background-position: -1px -157px;
 }
 
 .sprite-Silver4 {
     width: 18px;
     height: 18px;
-    background-position: -193px -49px;
+    background-position: -121px -157px;
 }
 
 .sprite-Silver5 {
     width: 16px;
     height: 18px;
-    background-position: -213px -49px;
+    background-position: -77px -115px;
 }
 
 .sprite-Silver6 {
     width: 12px;
     height: 18px;
-    background-position: -67px -49px;
+    background-position: -95px -115px;
 }
 
 .sprite-Silver7 {
     width: 6px;
     height: 18px;
-    background-position: -153px -49px;
+    background-position: -263px -95px;
+}
+
+.sprite-WarriorD0 {
+    width: 28px;
+    height: 40px;
+    background-position: -57px -221px;
+}
+
+.sprite-WarriorL0 {
+    width: 24px;
+    height: 40px;
+    background-position: -87px -221px;
+}
+
+.sprite-WarriorR0 {
+    width: 24px;
+    height: 40px;
+    background-position: -113px -221px;
+}
+
+.sprite-WarriorU0 {
+    width: 28px;
+    height: 40px;
+    background-position: -139px -221px;
 }

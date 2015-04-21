@@ -1,7 +1,8 @@
 package com.player03.ludum32.component.motion;
 
 /**
- * Pixels per second per second.
+ * User- or AI-controlled acceleration, in pixels per second per second.
+ * For regular acceleration, use Force.
  * @author Joseph Cloutier
  */
 class Acceleration {
